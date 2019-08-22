@@ -1,4 +1,4 @@
-FROM node:8.11.1
+FROM node:10.16.3
 
 RUN apt-get update
 RUN apt-get install -y cron rsyslog m4
